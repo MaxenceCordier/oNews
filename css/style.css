@@ -1,0 +1,131 @@
+.container_1{
+    background-image: url(../images/student.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    margin: 30px 0 0 20px;
+}
+
+.logo_onews{
+    height: 70px;
+}
+
+.container_1 h1{
+    color: #ffffff;
+    width:200px;
+    font-size: 1.8rem;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.container_1 h2{
+    color: #ffffff;
+}
+
+.text{   
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 20px;
+    line-height: 1.5em;
+}
+
+.container_1 p{
+    color: #ffffff;
+    align-items: flex-end;
+    font-weight: 400;
+}
+
+strong{
+    font-size: 2em;
+}
+
+ul {
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+ul li a {
+    color: #ffffff;
+    font-weight: 700px;
+}
+
+.container_2{
+    height: 1000px;
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_2 h1{
+    color: #000000;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.profil{
+    display: flex;
+    align-items: baseline;
+    margin: 40px 0 20px 0;
+}
+
+.container_2 img {
+    width: 10%;
+    display: inline-block;
+}
+
+.container_2 h2{
+    margin: 20px 0 20px 0;
+    line-height: 1.2em;
+}
+
+.wrapper{
+    display: flex;
+}
+
+article{
+    width: 50%;
+    border: 0.1px solid rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.container_2 span{
+    color: #ffffff;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.news{
+    background-color: green;
+}
+
+.work{
+    background-color: blue;
+}
+
+.team{
+    background-color: red;
+}
+
+.container_2 a{
+    text-decoration: underline;
+    font-weight: 700;
+}
